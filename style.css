@@ -1,0 +1,43 @@
+.timerbutton{
+    width: 100px;
+    height: 30px;
+    position: relative;
+    top: 20px;
+    background-color: lightblue;
+    float: inline-end;
+    border-radius: 20px ;
+    cursor: pointer;
+    font-family: consolas;
+    
+}
+#timecontainer{
+    background-color: red;
+    width: 350px;
+    height: 100px;
+    text-align: center;
+    
+    
+}
+#timedisplay{
+    position: relative;
+    top: 20px;
+    font-size: 50px;
+}
+#timecontainer{
+    border: 2px solid;
+}
+#buttons{
+    background-color: lightblue;
+    height: 80px;
+    position: relative;
+    right: 2px;
+    top: 40px;
+    border: 2px solid;
+    width: 350px;
+
+}
+.timerbutton:hover{
+    background-color: blue;
+}
+
+
